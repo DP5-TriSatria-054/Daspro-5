@@ -1,0 +1,15 @@
+program Hello;
+uses crt;
+var
+i:integer;
+begin
+clrscr;
+  i:=1;
+  repeat
+    begin
+      write(i,' ');
+      i:=i+1;
+    end;
+  until i=7;
+readln;
+end.
